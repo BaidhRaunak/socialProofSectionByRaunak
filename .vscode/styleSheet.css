@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'Spartan', 'sans-serif';
+    src:local("C:\Users\Raunak Baidh\Desktop\Practice\fonts\Spartan\static");
+    font-weight: 900;
+}
+.titleText{
+    display: flex;
+}
+.ratings{
+    display: flex;
+}
+.reviews{
+    display: inline-flex;
+    height: fit-content;
+    width: fit-content;
+    text-align: justify;
+    padding: 40px;
+    margin: 10px;
+    border: 10px;
+}
+div img{
+    border-radius: 50%;
+    float: left;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.reviews .colton{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 7.5px;
+}
+div #intro{
+    text-align: center;
+    line-height: 0.1%;
+}
