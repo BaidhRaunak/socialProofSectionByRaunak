@@ -1,9 +1,51 @@
-@font-face{
-    font-family: 'Spartan', 'sans-serif';
-    src:local("C:\Users\Raunak Baidh\Desktop\Practice\fonts\Spartan\static");
-    font-weight: 900;
+body{
+    background: url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-top-desktop.svg"), url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-bottom-desktop.svg");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: 0% 0%, 100% 150%;
+    font-family: Spartan;    
 }
 .titleText{
+    display: block;
+    width: 275px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+h1{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.titleText p{
+    font-size: 18px;
+    color: hsl(303, 10%, 53%);
+}
+.ratings{
+    display: block;
+}
+#star{
+    background-color: hsl(300, 24%, 96%);
+    max-width: 450px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px 0px 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.titleText{
     display: flex;
 }
 .ratings{
@@ -33,3 +75,4 @@ div #intro{
     text-align: center;
     line-height: 0.1%;
 }
+*/
