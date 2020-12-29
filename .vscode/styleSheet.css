@@ -21,9 +21,10 @@ h1{
     color: hsl(303, 10%, 53%);
 }
 .ratings{
-    display: block;
+    display:grid;
+    margin-left: 100px;
 }
-#star{
+#star1, #star2, #star3{
     background-color: hsl(300, 24%, 96%);
     max-width: 450px;
     height: 50px;
@@ -31,26 +32,57 @@ h1{
     border-radius: 10px;
     padding: 20px 0px 0px 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.titleText{
-    display: flex;
+#star2{
+    margin-left: 50px;
 }
-.ratings{
-    display: flex;
+#star3{
+    margin-left: 100px;
 }
+div span{
+    padding-left: 25px;
+}
+.reviews{
+    display: inline-flex;
+    margin: 0px 100px 100px 100px;
+    height: 280px;
+}
+#colton, #irene, #anne{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 40px 30px 30px 40px;
+}
+.reviews img{
+    border-radius: 50%;
+    width: 50px;
+
+}
+#irene{
+    margin-top: 30px;
+}
+#anne{
+    margin-top: 60px;
+}
+div #intro{
+    line-height: 0%;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .reviews{
     display: inline-flex;
     height: fit-content;
