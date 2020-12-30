@@ -1,110 +1,97 @@
+*{
+    font-family: Spartan;
+    font-size: 15px;
+}
 body{
     background: url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-top-desktop.svg"), url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-bottom-desktop.svg");
     background-origin: border-box;
     background-repeat: no-repeat;
-    background-position: 0% 0%, 100% 150%;
-    font-family: Spartan;    
+    background-position: 2% 0%, 100% 68%;  
+}
+.merge{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 100px;
+    justify-content: space-around;
 }
 .titleText{
     display: block;
-    width: 275px;
-    height: 250px;
+    width: 285px;
     margin-left: 100px;
     margin-top: 100px;
 }
 h1{
-    font-weight: 700;
+    font-size: 35px;
     color: hsl(300, 43%, 22%);
 }
 .titleText p{
-    font-size: 18px;
     color: hsl(303, 10%, 53%);
+    width: 450px;
 }
 .ratings{
-    display:grid;
+    display:block;
     margin-left: 100px;
+    width: 450px;
+    
 }
 #star1, #star2, #star3{
     background-color: hsl(300, 24%, 96%);
-    max-width: 450px;
+    max-width: 400px;
     height: 50px;
-    margin: 10px;
+    margin: 10px 0px 10px -80px;
     border-radius: 10px;
     padding: 20px 0px 0px 50px;
 }
 #star2{
-    margin-left: 50px;
+    margin-left: -40px;
 }
 #star3{
-    margin-left: 100px;
+    margin-left: 0px;
 }
 div span{
     padding-left: 25px;
+    color: hsl(300, 43%, 22%);
 }
 .reviews{
-    display: inline-flex;
-    margin: 0px 100px 100px 100px;
-    height: 280px;
+    display: flex;
+    margin: -50px 100px 100px 100px;
+    height: 300px;
 }
 #colton, #irene, #anne{
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
     margin: 10px;
     padding: 40px 30px 30px 40px;
+    color: hsl(0, 0%, 100%);
 }
 .reviews img{
     border-radius: 50%;
     width: 50px;
 
 }
+#colton{
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
 #irene{
-    margin-top: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 #anne{
-    margin-top: 60px;
+    margin-top: 70px;
+    margin-bottom: 0px;
 }
 div #intro{
-    line-height: 0%;
+    line-height: 30%;
     position: relative;
-    
+    bottom: 65px;
+    left: 70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.reviews{
-    display: inline-flex;
-    height: fit-content;
-    width: fit-content;
+div + p{
     text-align: justify;
-    padding: 40px;
-    margin: 10px;
-    border: 10px;
+    position: relative;
+    bottom: 45px;
 }
-div img{
-    border-radius: 50%;
-    float: left;
-    height: 30px;
-    margin-left: 50px;
-    margin-top: 30px;
-}
-.reviews .colton{
-    background-color: hsl(300, 43%, 22%);
-    border-radius: 7.5px;
-}
-div #intro{
+.attribution{
     text-align: center;
-    line-height: 0.1%;
 }
-*/
