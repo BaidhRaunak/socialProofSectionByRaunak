@@ -3,7 +3,7 @@
     font-size: 15px;
 }
 body{
-    background: url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-top-desktop.svg"), url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-bottom-desktop.svg");
+    background: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
     background-origin: border-box;
     background-repeat: no-repeat;
     background-position: 2% 0%, 100% 68%;
@@ -57,7 +57,6 @@ div span{
     position: relative;
     top: -45px;
     left: 150px;
-    /*padding-left: 25px;*/
     color: hsl(300, 43%, 22%);
 }
 .reviews{
@@ -104,7 +103,7 @@ div + p{
 }
 @media (max-width: 375px){
     body{
-        background-image: url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-top-mobile.svg"), url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-bottom-mobile.svg");
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
         background-origin: border-box;
         background-repeat: no-repeat;
         background-position: -69px 0px, 302px 400px;
