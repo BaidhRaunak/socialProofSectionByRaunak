@@ -6,7 +6,7 @@ body{
     background: url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-top-desktop.svg"), url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-bottom-desktop.svg");
     background-origin: border-box;
     background-repeat: no-repeat;
-    background-position: 2% 0%, 100% 68%;  
+    background-position: 2% 0%, 100% 68%;
 }
 .merge{
     display: flex;
@@ -29,27 +29,35 @@ h1{
     width: 450px;
 }
 .ratings{
-    display:block;
     margin-left: 100px;
-    width: 450px;
-    
-}
-#star1, #star2, #star3{
-    background-color: hsl(300, 24%, 96%);
+    width: 550px;
     max-width: 400px;
-    height: 50px;
     margin: 10px 0px 10px -80px;
-    border-radius: 10px;
-    padding: 20px 0px 0px 50px;
+    padding: 20px 0px 0px 50px; 
 }
-#star2{
-    margin-left: -40px;
-}
-#star3{
+div img{
     margin-left: 0px;
 }
+#star1, #star2, #star3{
+    display: block;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    height: 45px;
+    padding: 25px 0px 0px 20px;
+}  
+#star2{
+    margin-left: 40px;
+    margin-right: -40px;
+}
+#star3{
+    margin-left: 80px;
+    margin-right: -80px;
+}
 div span{
-    padding-left: 25px;
+    position: relative;
+    top: -45px;
+    left: 150px;
+    /*padding-left: 25px;*/
     color: hsl(300, 43%, 22%);
 }
 .reviews{
@@ -67,7 +75,6 @@ div span{
 .reviews img{
     border-radius: 50%;
     width: 50px;
-
 }
 #colton{
     margin-top: 0px;
@@ -94,4 +101,70 @@ div + p{
 }
 .attribution{
     text-align: center;
+}
+@media (max-width: 375px){
+    body{
+        background-image: url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-top-mobile.svg"), url("C:/Users/Raunak Baidh/Desktop/Practice/social-proof-section-master/social-proof-section-master/images/bg-pattern-bottom-mobile.svg");
+        background-origin: border-box;
+        background-repeat: no-repeat;
+        background-position: -69px 0px, 302px 400px;
+        background-size: 745px 400px, 371px 222px;
+    }
+    .merge{
+        display: block;
+    }
+    .titleText{
+        text-align: center;
+        width: 393px;
+        margin-left: 65px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        line-height: 40px;
+    }
+    .titleText h1{
+        margin-left: 53px;
+    }
+    .titleText p{
+        font-size: 20px;
+    }
+    .ratings{
+        margin: 0px 0px 500px 113px;
+        height: 0px;
+        padding: 0px;
+    }
+    #star1, #star2, #star3{
+        background-color: hsl(300, 24%, 96%);
+        height: 100px;
+        margin: 20px -30px 0px -80px;
+        padding: 20px 0px 0px 0px;
+        border-radius: 10px;
+    }
+    #star1, #star2, #star3 span{
+        text-align: center;
+    }
+    #star3{
+        padding-left: 200px;
+    }
+    div span{
+        padding: 0px 0px 0px 60px;
+        position: relative;
+        top: -50px;
+        left: auto;
+        right: -20px;
+    }
+    .reviews{
+        display: contents;
+        margin-top: 10px;
+    }
+    #colton, #irene, #anne{
+        margin: 25px -182px 0px 30px;
+    }
+    div + p{
+        line-height: 35px;
+        height: 118px;
+        word-spacing: 22px;
+    }
+    .attribution{
+        padding: 30px 0px 15px 220px;
+    }
 }
